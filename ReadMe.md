@@ -18,19 +18,33 @@ Here, we have used scala and python for our project.
 
 Results are displayed on the terminal when running the streaming.scala file. It shows accuracy, precision,recall of the classification. Below are the screenshots for the same.
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Screenshot 1")
+![alt text](https://github.com/prit2596/Streaming-Data-Classification/blob/master/Screen%20Shot1.png "Screenshot 1")
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/prit2596/Streaming-Data-Classification/blob/master/Screen%20Shot2.png "Logo Title Text 1")
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/prit2596/Streaming-Data-Classification/blob/master/Screen%20Shot3.png "Logo Title Text 1")
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/prit2596/Streaming-Data-Classification/blob/master/Screen%20Shot4.png "Logo Title Text 1")
 
 Also, results are visualized using Kibana and Elastic Search.
 Over here, we will display results of trending news category in a window time frame by using a Tag cloud. Screenshots are below.
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/prit2596/Streaming-Data-Classification/blob/master/kibana1.PNG "Logo Title Text 1")
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/prit2596/Streaming-Data-Classification/blob/master/kibana2.PNG "Logo Title Text 1")
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/prit2596/Streaming-Data-Classification/blob/master/kibana3.PNG "Logo Title Text 1")
+
+
+# How to run the code
+
+1) In Project folder, run *'sbt assembly'* to generate fat jar
+
+2) Run the training of data and creating ml models:\
+```spark-submit --class training <Path to the jar file>BigData_Hw3/target/scala-2.11/BigData_Hw3-assembly-0.1.jar```
+
+3) Run the live data on the trained model:\
+```spark-submit --class streaming BigData_Hw3/target/scala-2.11/BigData_Hw3-assembly-0.1.jar```
+
+Also simultaneously run the stream_producer.py file to fetch the data\
+```python3 stream_producer.py 0a571223-a3a8-4fdd-9d2c-6b17c94c4743 2019-04-03 2019-04-04```
