@@ -1,8 +1,8 @@
 # Introduction
 
-In this project, we will work with **Big Data Technologies and Machine Learning Classifiers**. The goal of our project is to classify the streaming data coming from Kafka Server. The data is coming from Guardian API which sends news data. Our stream producer file sends data to kafka server which sends data in interval of 20 seconds. The data coming from Kafka Server which we will classify into category of the news. We will use offline data to train our model and use the model to classify streaming data coming from Kafka. 
+In this project, we will work with **Big Data Technologies and Machine Learning Classifiers**. The goal of our project is to classify the streaming data coming from **Kafka Server**. The data is coming from Guardian API which sends news data. Our stream producer file sends data to kafka server which sends data in interval of 20 seconds. The data coming from Kafka Server which we will classify into category of the news. We will use offline data to train our model and use the model to classify streaming data coming from Kafka. 
 
-At the end, we will use Elastic Search and Kibana for visualization of our results. Elastic Search is used for storing results into indexes and these indexes are used by kibana for various visualization. Here we have created **Tag cloud** of the categories of the news data classified. We have shown trending news category in a window time frame by Tag Cloud.
+At the end, we will use **Elastic Search and Kibana** for visualization of our results. Elastic Search is used for storing results into indexes and these indexes are used by kibana for various visualization. Here we have created **Tag cloud** of the categories of the news data classified. We have shown trending news category in a window time frame by Tag Cloud.
 
 Here, we have used scala and python for our project.
 
