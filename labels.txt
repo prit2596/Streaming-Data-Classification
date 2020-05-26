@@ -1,0 +1,69 @@
+Politics,0
+US news,1
+Football,2
+Sport,3
+Opinion,4
+World news,5
+Music,6
+Australia news,7
+Environment,8
+Film,9
+Education,10
+Books,11
+Fashion,12
+From the Observer,13
+Science,14
+Business,15
+Society,16
+Television & radio,17
+UK news,18
+Life and style,19
+Art and design,20
+Higher Education Network,21
+Technology,22
+Food,23
+Travel,24
+Culture,25
+Stage,26
+Membership,27
+Cities,28
+Money,29
+Crosswords,30
+News,31
+Media,32
+Law,33
+Developing sustainable solutions – University of Plymouth,34
+Help,35
+Global,36
+GNM press office,37
+Global development,38
+Finance matters,39
+Tempur: sleep better,40
+Guardian Masterclasses,41
+Games,42
+Entertainment One: Green Book,43
+Community,44
+Info,45
+Vital Signs,46
+Children's books,47
+Guardian Small Business Network,48
+Teacher Network,49
+Global Development Professionals Network,50
+Working in development,51
+Improving lives through business innovation,52
+Guardian Careers,53
+Cafcass professional careers,54
+Transforming the student experience,55
+Green shoots,56
+Love family life,57
+Detectives transforming communities,58
+Modern money by HSBC UK,59
+Behind every great holiday,60
+Breakthrough science,61
+Brother: At your side,62
+Amazing trees,63
+Ski Tirol in Austria,64
+The modern basket by Tesco,65
+Diverse talent everywhere,66
+NewsWise,67
+Guardian discount codes,68
